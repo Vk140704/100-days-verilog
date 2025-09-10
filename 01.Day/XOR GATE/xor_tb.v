@@ -3,7 +3,7 @@ module xor_tb;
   wire out;
   xorg uut(.a(a),.b(b),.out(out));
   initial begin
-  $dumpfile("and_tb.vcd");
+    $dumpfile("xor_tb.vcd");
   $dumpvars();
   $display("  Time  |  A B   |  out  ");
   $display("-------------------------");
