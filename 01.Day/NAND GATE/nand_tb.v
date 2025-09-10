@@ -3,7 +3,7 @@ module nand_tb;
   wire out;
   nandg uut(.a(a),.b(b),.out(out));
   initial begin
-  $dumpfile("and_tb.vcd");
+  $dumpfile("nand_tb.vcd");
   $dumpvars();
   $display("  Time  |  A B   |  out  ");
   $display("-------------------------");
