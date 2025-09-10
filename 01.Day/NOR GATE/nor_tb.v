@@ -3,7 +3,7 @@ module nor_tb;
   wire out;
   norg uut(.a(a),.b(b),.out(out));
   initial begin
-  $dumpfile("and_tb.vcd");
+    $dumpfile("nor_tb.vcd");
   $dumpvars();
   $display("  Time  |  A B   |  out  ");
   $display("-------------------------");
